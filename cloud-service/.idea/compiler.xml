@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="nacos-provider-demo" />
+        <module name="nacos-consumer-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-service" target="11.0.13" />
+      <module name="nacos-consumer-demo" target="11.0.13" />
+      <module name="nacos-provider-demo" target="11.0.13" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -1,0 +1,13 @@
+server:
+  port: 8093
+# 应用名称
+spring:
+  application:
+    name: cloud-consumer-service
+# 配置服务注册中心 nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      username: nacos
+      password: nacos
